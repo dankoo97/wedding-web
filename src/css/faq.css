@@ -1,0 +1,62 @@
+.faq .container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /*border-bottom: solid violet;*/
+    padding: 20px 10%;
+    margin: auto;
+    align-content: space-around;
+    gap: normal;
+    width: 65%;
+}
+
+.faq .container h2 {
+    font-family: "Helvetica Neue";
+    font-size: xx-large;
+    font-style: italic;
+    text-align: left;
+    /*text-transform: uppercase;*/
+}
+
+.faq .container p {
+    font-size: larger;
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+}
+
+.faq hr {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.faq hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+    width: 100%;
+}
+
+@media only screen and (min-device-width: 400px) {
+    .faq div:nth-of-type(2n) {
+        float: left;
+        text-align: right;
+    }
+
+    .faq div:nth-of-type(2n+1) {
+        float: right;
+        text-align: left;
+    }
+}

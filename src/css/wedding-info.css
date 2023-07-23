@@ -1,0 +1,29 @@
+.wedding-info div {
+    width: fit-content;
+}
+
+.wedding-info table {
+    margin: auto;
+    padding: 50px;
+    max-width: 500px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wedding-info th, td {
+    text-align: left;
+    vertical-align: top;
+
+    padding: 15px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.wedding-info tr:hover {
+    background-color: var(--primary-purple);
+    color: white;
+}
+
+.wedding-info a {
+    text-decoration: none;
+}

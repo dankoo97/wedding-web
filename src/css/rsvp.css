@@ -1,0 +1,31 @@
+.rsvp-form {
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 50px;
+    width: 50%;
+}
+
+.rsvp-form input {
+    display: block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.rsvp-form input[type=text] {
+    width: 100%;
+}
+
+.rsvp-form input[type=textarea] {
+    width: 100%;
+    resize: vertical;
+}
+
+.rsvp-form input[type=email] {
+    width: 100%;
+}
+
+.rsvp-form input[type=checkbox] {
+    margin-left: 10px;
+}

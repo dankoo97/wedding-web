@@ -1,0 +1,12 @@
+:root {
+    /* https://colorkit.co/palette/eaba93-d39da4-bc80b4-a562c5-8e45d5/ */
+    --bright-yellow: #eaba93;
+    --pale-yellow: #d39da4;
+    --mixed-color: #bc80b4;
+    --light-purple: #a562c5;
+    --darker-purple: #8e45d5;
+}
+
+body {
+    background-color: var(--pale-yellow);
+}
