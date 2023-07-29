@@ -9,7 +9,7 @@ export default function GustCode() {
         <div className="rsvp-form">
             <Form method="get" action="/rsvp">
                 <label htmlFor="guestID">Enter your code</label>
-                <input type="text" name="guestID" id="guestID" placeholder="123..."  />
+                <input type="text" name="guestID" id="guestID" placeholder="123..." required />
                 <MessageBox message={message} />
 
                 <input type="submit" value="Submit Guest Code" />

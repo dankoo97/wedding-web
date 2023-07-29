@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 
-import "../css/nav.css"
+import "../css/root.css"
 
 export default function Root() {
     return (
@@ -20,7 +20,7 @@ export default function Root() {
                 </nav>
             </div>
 
-            <div>
+            <div className={"body"}>
                 <Outlet />
             </div>
 
