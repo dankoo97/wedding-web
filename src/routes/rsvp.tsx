@@ -3,7 +3,6 @@ import { useLocation, Form, useNavigate } from "react-router-dom";
 import "../css/rsvp.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import config from "../config.js"
 import Collapsible from "react-collapsible"
 
 interface Guest {
@@ -26,7 +25,8 @@ export default function RSVP() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        const api = config.api_url
+        const api = process.env.REACT_APP_API_KEY
+        console.log(api);
         axios.get(`${api}/guests/${guestID}`).then((response) => {
             setGuests(response.data.guests)
         }).catch((e) => {
