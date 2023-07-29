@@ -31,3 +31,9 @@ nav ul li a:hover {
     float: right;
     background-color: var(--darker-purple);
 }
+
+.footer {
+    display: block;
+    height: auto;
+    text-align: center;
+}

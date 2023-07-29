@@ -13,19 +13,24 @@
     box-sizing: border-box;
 }
 
-.rsvp-form input[type=text] {
+.rsvp-form guest-* input[type=text] {
     width: 100%;
 }
 
-.rsvp-form input[type=textarea] {
+.rsvp-form guest-* input[type=textarea] {
     width: 100%;
     resize: vertical;
 }
 
-.rsvp-form input[type=email] {
+.rsvp-form guest-* input[type=email] {
     width: 100%;
 }
 
-.rsvp-form input[type=checkbox] {
+.rsvp-form guest-* input[type=checkbox] {
     margin-left: 10px;
+}
+
+.guestCard {
+    border: 1px solid black;
+    padding: 10px;
 }
