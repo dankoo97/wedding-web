@@ -12,10 +12,11 @@ import Root from "./routes/root";
 import ErrorPage from './error-page';
 import OurStory from './routes/story';
 import OurGallery from './routes/gallery';
-import RSVP from './routes/rsvp';
+import GuestCode from './routes/guestCode';
 import WeddingInfo from './routes/info';
 import Faq from './routes/faq';
 import Rva from "./routes/rva";
+import RSVP from './routes/rsvp'
 
 const router = createBrowserRouter([
   {
@@ -36,8 +37,8 @@ const router = createBrowserRouter([
         element: <OurGallery />
       },
       {
-        path: "rsvp",
-        element: <RSVP />
+        path: "guest-code",
+        element: <GuestCode />
       },
       {
         path: "faq",
@@ -46,6 +47,9 @@ const router = createBrowserRouter([
       {
         path: "rva",
         element: <Rva />
+      }, {
+        path: "rsvp",
+        element: <RSVP />
       }
     ]
   }

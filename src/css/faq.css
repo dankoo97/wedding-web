@@ -7,20 +7,19 @@
     margin: auto;
     align-content: space-around;
     gap: normal;
-    width: 65%;
 }
 
 .faq .container h2 {
     font-family: "Helvetica Neue";
     font-size: xx-large;
     font-style: italic;
-    text-align: left;
-    /*text-transform: uppercase;*/
+    /* text-align: left; */
+    /* text-transform: uppercase; */
 }
 
 .faq .container p {
-    font-size: larger;
-    text-align: left;
+    font-size: xx-large;
+    /* text-align: left; */
 }
 
 li {
@@ -49,14 +48,18 @@ li {
     width: 100%;
 }
 
-@media only screen and (min-device-width: 400px) {
+@media only screen and (min-device-width: 500px) {
     .faq div:nth-of-type(2n) {
-        float: left;
-        text-align: right;
+        margin-left: 2%;
+        text-align: left;
     }
 
     .faq div:nth-of-type(2n+1) {
-        float: right;
-        text-align: left;
+        margin-right: 2%;
+        text-align: right;
+    }
+
+    .faq .container {
+        width: 80%;
     }
 }

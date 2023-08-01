@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
 :root {
     /* https://colorkit.co/palette/eaba93-d39da4-bc80b4-a562c5-8e45d5/ */
     --bright-yellow: #eaba93;
@@ -9,4 +11,10 @@
 
 body {
     background-color: var(--pale-yellow);
+    font-family: "Quicksand";
+    color: #3a3a3a;
+}
+
+.error-message {
+    color: red;
 }
